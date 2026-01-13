@@ -10,7 +10,7 @@ class TestController
         # Using string concatenation to avoid C# string interpolation issues
         @db.exec('SET search_path = public, "' + '$' + 'user"')
     end
-rere
+rered
     def get_all
         begin
             set_search_path
